@@ -16,7 +16,7 @@ export default function Profile() {
 			<Header />
 			<Nome>{user?.nome}</Nome>
 			<NewLink onPress={() => {navigation.navigate('Registrar')}}>
-				<NewText>Registrar gastos</NewText>
+				<NewText>Registrar valores</NewText>
 			</NewLink>
 			<Logout onPress={() => signOut()}>
 				<LogoutText>Sair</LogoutText>
